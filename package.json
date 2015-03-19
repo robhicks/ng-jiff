@@ -1,8 +1,8 @@
 {
-  "name": "jiff",
-  "version": "0.7.0",
-  "description": "JSON diff and patch based on rfc6902",
-  "main": "jiff",
+  "name": "ng-jiff",
+  "version": "0.1.0",
+  "description": "Angularized JSON diff and patch based on rfc6902",
+  "main": "index.js",
   "scripts": {
     "test": "buster-test -e node"
   },
@@ -14,15 +14,21 @@
     "patch",
     "json pointer"
   ],
-  "author": "brian@hovercraftstudios.com",
+  "author": "Rob Hicks",
   "license": "MIT",
   "devDependencies": {
-    "jshint": "~2",
+    "browserify": "^9.0.3",
     "buster": "~0.7",
-    "gent": "0.6.2"
+    "gent": "0.6.2",
+    "gulp": "^3.8.11",
+    "jshint": "~2",
+    "vinyl-source-stream": "^1.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cujojs/jiff.git"
+    "url": "git://github.com/robhicks/ng-jiff.git"
+  },
+  "dependencies": {
+    "jiff": "^0.7.0"
   }
 }
